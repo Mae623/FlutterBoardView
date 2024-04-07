@@ -122,7 +122,7 @@ class BoardListState extends State<BoardList>
       listWidgets.add(Container(
           child: Flexible(
               fit: FlexFit.loose,
-              child: new ListView.builder(
+              child: ListView.builder(
                 shrinkWrap: true,
                 physics: ClampingScrollPhysics(),
                 controller: boardListController,

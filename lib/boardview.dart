@@ -372,6 +372,7 @@ class BoardViewState extends State<BoardView>
       });
     }
     Widget listWidget = ListView.builder(
+      shrinkWrap: true,
       physics: ClampingScrollPhysics(),
       itemCount: widget.lists!.length,
       scrollDirection: Axis.horizontal,
